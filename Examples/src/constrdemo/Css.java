@@ -10,7 +10,7 @@ public class Css {
 
 	public static void main(String[] args)
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DTMLLUAdminUser\\Desktop\\Selenium stuff\\chromedriver_win32_chr74\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\\\java-selenium\\\\java-selenium\\\\Drivers\\\\chromedriver_win32_chr74\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.get("https://www.swiggy.com/track-order/19L74O");
